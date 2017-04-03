@@ -1,0 +1,25 @@
+
+http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC
+
+Path:
+  /v1/gifs/search
+
+Parameters
+  q - search query term or phrase
+
+Random Endpoint
+
+  Returns a random GIF, limited by tag. Excluding the tag parameter will return a random GIF from the Giphy catalog.
+
+  http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=american+psycho
+
+  Example random query
+
+    Path
+    /v1/gifs/random
+
+    Parameters
+
+    tag - the GIF tag to limit randomness by
+    rating - limit results to those rated (y,g, pg, pg-13 or r).
+    fmt - (optional) return results in html or json format (useful for viewing responses as GIFs to debug/test)
